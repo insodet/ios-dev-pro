@@ -24,7 +24,7 @@ struct ProfileImage: View {
                     .padding(.top)
             }
         }.frame(width: 200, height: 200)
-        .background(Color.teal)
+        .background(Color.gray.opacity(0.4))
         .cornerRadius(100)
     }
 }
